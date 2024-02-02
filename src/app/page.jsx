@@ -46,6 +46,17 @@ export default function Home() {
           </div>
           
         </section>
+        <section className=' text-center my-8' >
+          <SectionHeaders
+            subHeader={"N\'hésite pas"}
+            mainHeader={"Contact nous"}/>
+            <div className="mt-8">
+              <a className="text-4xl underline text-gray-500" href="tel:+3380711111">03 80 71 11 11</a>
+            </div>
+        </section>
+        <footer className="border-t p-8 text-center text-gray-500 mt-16">
+            &copy; 2024 tous droits réservés
+        </footer>
       </>
   );
 }
