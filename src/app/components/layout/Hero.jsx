@@ -4,7 +4,7 @@ import Right from "../icons/Right";
 export default function Hero() {
     return(
         <>
-            <section className="hero">
+            <section className="hero mt-4">
                 <div className="py-12">   
                 <h1 className="text-4xl font-semibold">Tout est <span className="text-primary">Meilleur</span> avec<br/> <span className="text-primary">Fast&Tasty</span></h1>
                 <p className="my-6 text-gray-500">
@@ -17,7 +17,7 @@ export default function Hero() {
                  </div>
                 </div>
                 <div className=" relative">
-                    <Image src={'/pizza.png'} alt="food" layout={'fill'} objectFit={'contain'}/>
+                    <Image  src={'/pizza.png'} alt="food" layout={'fill'} objectFit={'contain'}/>
                 </div>               
             </section>
         

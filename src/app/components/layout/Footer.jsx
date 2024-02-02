@@ -1,0 +1,10 @@
+import React from 'react'
+
+export const Footer = () => {
+  return (
+    <footer className="border-t p-8 text-center text-gray-500 mt-16">
+    &copy; 2024 tous droits réservés - ANCreative
+    </footer>
+
+  )
+}
