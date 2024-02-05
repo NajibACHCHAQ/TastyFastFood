@@ -12,8 +12,8 @@ export default function Hero() {
                  <br/>La piece manquante qui mettra du <span className="text-primary text-xl font-semibold">Gout </span> à votre journée
                  </p>
                  <div className="flex gap-4 items-center">
-                    <button className="bg-primary uppercase flex  gap-2 text-white rounded-full py-2 px-4 text-sm items-center hover:font-semibold">Commander <Right className="w-7 h-7"/></button>
-                    <button className="flex gap-2 py-2 px-4 text-gray-600 font-semibold">Découvrir <Right/></button>
+                    <button className="bg-primary uppercase flex  gap-2 text-white rounded-full py-2 px-4 text-sm items-center hover:font-semibold hover:bg-[#f13901d4]">Commander <Right className="w-7 h-7"/></button>
+                    <button className="flex gap-2 py-2 px-4 text-gray-600 font-semibold border-transparent w-[fit-content] hover:text-gray-500">Découvrir <Right/></button>
                  </div>
                 </div>
                 <div className=" relative">

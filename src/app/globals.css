@@ -15,7 +15,7 @@ input[type="text"]{
 }
 
 button{
-    @apply block w-full max-w-[600px] mx-auto text-gray-700 font-semibold;
+    @apply flex justify-center block w-full max-w-[600px] mx-auto text-gray-700 font-semibold;
     @apply border border-gray-300 rounded-md px-6 py-2;
 }
 button[type="submit"], .submit{

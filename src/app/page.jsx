@@ -50,7 +50,7 @@ export default function Home() {
             subHeader={"N\'hésite pas"}
             mainHeader={"Contact nous"}/>
             <div className="mt-8">
-              <a className="text-4xl underline text-gray-500" href="tel:+3380711111">03 80 71 11 11</a>
+              <a className="text-4xl underline text-gray-500" href="tel:+3380711111">03.80.71.11.11</a>
             </div>
         </section>
 
